@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <!-- tailwind CSS -->
+    <link rel="stylesheet" href="public/styles.css" />
+    <!-- Fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/4789f143ea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="box-border">
+    <!-- main container -->
+    <main class="max-w-screen-xl mx-auto px-8 font-primary">
+      <!-- header banner container -->
+      <header class="grid grid-cols-12 py-20">
+        <!-- banner text content -->
+        <div
+          class="xs:col-span-12 sm:col-span-12 lg:col-span-6 flex flex-col gap-7 xs:text-center"
+        >
+          <!-- banner title -->
+          <h1 class="text-title text-7xl font-extrabold leading-tight">
+            It's good <br />
+            tea time at The Tea House
+          </h1>
+          <!-- banner text -->
+          <p class="text-primary text-lg font-medium">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <!-- banner button container -->
+          <div class="lg:text-left sm:text-center">
+            <!-- banner button -->
+            <button
+              class="px-5 py-3 bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white rounded-md flex items-center gap-2"
+            >
+              <span class="text-lg font-bold">
+                Explore More
+                <!-- banner button icon -->
+                <i class="fa-solid fa-arrow-right -rotate-45"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+        <!-- banner image content -->
+        <div class="sm:col-span-12 lg:col-start-7 lg:col-end-13">
+          <div class="relative">
+            <!-- banner image -->
+            <img src="public/img/banner.png" alt="" />
+            <!-- banner card -->
+            <div
+              class="absolute lg:top-80 lg:left-16 bg-white flex items-center gap-3 p-5 rounded-md shadow-md shadow-slate-400"
+            >
+              <!-- banner card icon -->
+              <div>
+                <img src="public/img/star.png" alt="" />
+              </div>
+              <!-- banner card text -->
+              <div>
+                <p class="text-title text-3xl font-extrabold">5.00</p>
+                <p class="text-primary text-lg font-medium">
+                  Trust Pilot Ratings
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- featured product cards section container -->
+      <section class="grid grid-cols-12 pb-20 gap-y-12">
+        <!-- section title container -->
+        <div class="col-start-3 col-end-11 text-center">
+          <!-- section title -->
+          <h2 class="text-title font-primary font-extrabold text-5xl mb-5">
+            Our Featured Products
+          </h2>
+          <!-- section title text -->
+          <p class="text-base text-primary font-medium font-primary">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- featured cards content -->
+        <div class="col-start-1 col-end-13">
+          <div class="grid grid-cols-12 gap-x-4">
+            <!-- single product card item 1 -->
+            <div
+              class="col-start-1 col-end-4 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <!-- product card image -->
+                <img
+                  class="w-3/5 h-60 mb-8"
+                  src="public/img/tea-1.png"
+                  alt=""
+                />
+                <!-- product card title -->
+                <h3
+                  class="text-title font-primary text-2xl font-extrabold mb-3"
+                >
+                  Milk Tea
+                </h3>
+                <!-- product card text -->
+                <p
+                  class="text-primary font-primary text-base text-center font-semibold"
+                >
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <!-- single product card item 2 -->
+            <div
+              class="col-start-4 col-end-7 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <!-- product card image -->
+                <img
+                  class="w-3/5 h-60 mb-8"
+                  src="public/img/tea-2.png"
+                  alt=""
+                />
+                <!-- product card title -->
+                <h3
+                  class="text-title font-primary text-2xl font-extrabold mb-3"
+                >
+                  Black Tea
+                </h3>
+                <!-- product card text -->
+                <p
+                  class="text-primary font-primary text-base text-center font-semibold"
+                >
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <!-- single product card item 3 -->
+            <div
+              class="col-start-7 col-end-10 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <!-- product card image -->
+                <img
+                  class="w-3/5 h-60 mb-8"
+                  src="public/img/tea-3.png"
+                  alt=""
+                /><!-- product card title -->
+                <h3
+                  class="text-title font-primary text-2xl font-extrabold mb-3"
+                >
+                  Lemon Tea
+                </h3>
+                <!-- product card text -->
+                <p
+                  class="text-primary font-primary text-base text-center font-semibold"
+                >
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <!-- single product card item 4 -->
+            <div
+              class="col-start-10 col-end-13 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+            >
+              <div class="flex flex-col justify-center items-center">
+                <!-- product card image -->
+                <img
+                  class="w-3/5 h-60 mb-8"
+                  src="public/img/tea-4.png"
+                  alt=""
+                />
+                <!-- product card title -->
+                <h3
+                  class="text-title font-primary text-2xl font-extrabold mb-3"
+                >
+                  Green Tea
+                </h3>
+                <!-- product card text -->
+                <p
+                  class="text-primary font-primary text-base text-center font-semibold"
+                >
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- showcase section container -->
+      <section class="grid grid-cols-12 py-20 gap-x-12">
+        <!-- showcase image content -->
+        <div class="col-span-6 grid grid-cols-2 grid-rows-3 gap-7">
+          <!-- showcase blank box 1 -->
+          <div
+            class="col-span-1 row-span-1 w-full h-full rounded-lg bg-gradient-to-r from-red-200 to-red-50"
+          ></div>
+          <!-- showcase image box 1 -->
+          <div
+            class="col-span-1 row-span-2 w-full h-full rounded-lg bg-orange-50"
+          >
+            <!-- showcase image 1 -->
+            <img
+              class="mx-auto w-full px-7 py-10"
+              src="public/img/fresh-1.png"
+              alt=""
+            />
+          </div>
+          <!-- showcase image box 2 -->
+          <div
+            class="mx-auto col-span-1 row-span-2 w-full h-full rounded-lg bg-stone-100"
+          >
+            <!-- showcase image 2 -->
+            <img
+              class="mx-auto w-full px-7 py-10"
+              src="public/img/fresh-2.png"
+              alt=""
+            />
+          </div>
+          <!-- showcase blank box 2 -->
+          <div
+            class="col-span-1 row-span-1 w-full h-full rounded-lg bg-gradient-to-r from-stone-200 to-stone-50"
+          ></div>
+        </div>
+        <!-- showcase text content -->
+        <div
+          class="col-start-7 col-end-13 flex flex-col gap-7 items-center justify-center"
+        >
+          <!-- showcase title -->
+          <h2
+            class="font-primary text-title text-5xl font-extrabold leading-tight"
+          >
+            Great Tea, Freshly Presented
+          </h2>
+          <!-- showcase text -->
+          <p class="text-base font-primary text-primary font-medium">
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <!-- showcase subtext 1 -->
+          <p class="text-base font-primary text-primary font-medium">
+            <span
+              class="block text-2xl font-extrabold text-title leading-relaxed"
+              >Unique Taste</span
+            >A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <!-- showcase subtext 2 -->
+          <p class="text-base font-primary text-primary font-medium">
+            <span
+              class="block text-2xl font-extrabold text-title leading-relaxed"
+              >Premium Quality</span
+            >Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
+        </div>
+      </section>
+      <!-- testimonial section container -->
+      <section
+        class="grid grid-cols-12 gap-8 bg-gradient-to-l from-[#FF0000] to-[#FF8938] p-20 rounded-xl mb-20"
+      >
+        <!-- testimonial text content -->
+        <div class="col-span-6 flex flex-col gap-y-7 justify-center">
+          <h2 class="text-white font-extrabold text-5xl leading-snug">
+            Meet Our Super Clients
+          </h2>
+          <p class="text-white text-base font-medium">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <div>
+            <!-- testimonial button -->
+            <button
+              class="text-orange-600 bg-white px-7 py-3 font-bold rounded-lg text-lg font-primary"
+            >
+              Show All
+            </button>
+          </div>
+        </div>
+        <!-- testimonial cards content -->
+        <div class="col-start-8 col-end-13 flex flex-col gap-8 relative">
+          <!-- first card item -->
+          <div
+            class="flex flex-col gap-5 px-12 py-8 bg-white text-primary rounded-lg absolute -left-20 top-1/4 z-10 w-11/12"
+          >
+            <!-- testimonial card image -->
+            <img
+              class="w-16 h-16 rounded-full border-2 border-white absolute -left-6 -top-6"
+              src="public/img/client.png"
+              alt=""
+            />
+            <!-- testimonial card text -->
+            <p>
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <!-- testimonial client name -->
+            <p class="text-title text-base font-bold">
+              Ilham Yuda
+              <span class="block text-primary font-medium">Businessman</span>
+            </p>
+            <!-- testimonial card circles img -->
+            <img
+              class="absolute right-5 bottom-5 w-6 h-6"
+              src="public/img/circles.png"
+              alt=""
+            />
+          </div>
+          <!-- middle card item -->
+          <div
+            class="flex flex-col gap-5 relative px-12 py-8 bg-white text-primary rounded-lg opacity-55 w-11/12"
+          >
+            <!-- testimonial card image -->
+            <img
+              class="w-16 h-16 rounded-full border-2 border-white absolute -left-6 -top-6"
+              src="public/img/client.png"
+              alt=""
+            />
+            <!-- testimonial card text -->
+            <p>
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <!-- testimonial client name -->
+            <p class="text-title text-base font-bold">
+              Ilham Yuda
+              <span class="block text-primary font-medium">Businessman</span>
+            </p>
+            <!-- testimonial card circles img -->
+            <img
+              class="absolute right-5 bottom-5 w-6 h-6"
+              src="public/img/circles.png"
+              alt=""
+            />
+          </div>
+          <!-- last card item -->
+          <div
+            class="flex flex-col gap-5 relative px-12 py-8 bg-white text-primary rounded-lg opacity-55 w-11/12"
+          >
+            <!-- testimonial card image -->
+            <img
+              class="w-16 h-16 rounded-full border-2 border-white absolute -left-6 -top-6"
+              src="public/img/client.png"
+              alt=""
+            /><!-- testimonial card text -->
+            <p>
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+
+            <p class="text-title text-base font-bold">
+              Ilham Yuda
+              <span class="block text-primary font-medium">Businessman</span>
+            </p>
+            <!-- testimonial card circles img -->
+            <img
+              class="absolute right-5 bottom-5 w-6 h-6"
+              src="public/img/circles.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- news blog section container -->
+      <section class="grid grid-cols-12 gap-y-12 pb-20">
+        <!-- section title container -->
+        <div class="col-start-3 col-end-11 text-center">
+          <!-- section title -->
+          <h2 class="text-title font-primary font-extrabold text-5xl mb-5">
+            News & Events
+          </h2>
+          <!-- section title text -->
+          <p class="text-base text-primary font-medium font-primary">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- news blog cards content -->
+        <div class="col-span-12 grid grid-cols-12 gap-x-5">
+          <!-- single news blog card 1 -->
+          <div
+            class="col-start-1 col-end-5 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
+          >
+            <!-- news blog card image 1 -->
+            <img src="public/img/news-1.png" alt="" />
+            <!-- news blog card date -->
+            <span class="block text-primary font-primary font-medium text-base"
+              >Feb 05, 2027</span
+            >
+            <!-- news blog card title -->
+            <h3 class="text-lg text-title font-extrabold font-primary">
+              Collecting 8 points for discount
+            </h3>
+            <!-- news blog card text -->
+            <p class="text-base font-primary text-primary font-medium">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <!-- news blog card link -->
+            <a
+              href=""
+              class="text-title font-bold font-primary text-base hover:text-orange-500"
+              >Learn More</a
+            >
+          </div>
+          <!-- single news blog card 2 -->
+          <div
+            class="col-start-5 col-end-9 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
+          >
+            <!-- news blog card image 2 -->
+            <img src="public/img/news-2.png" alt="" />
+            <!-- news blog card date -->
+            <span class="block text-primary font-primary font-medium text-base"
+              >Feb 05, 2027</span
+            >
+            <!-- news blog card title -->
+            <h3 class="text-lg text-title font-extrabold font-primary">
+              Collecting 8 points for discount
+            </h3>
+            <!-- news blog card text -->
+            <p class="text-base font-primary text-primary font-medium">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <!-- news blog card link -->
+            <a
+              href=""
+              class="text-title font-bold font-primary text-base hover:text-orange-500"
+              >Learn More</a
+            >
+          </div>
+          <!-- single news blog card 3 -->
+          <div
+            class="col-start-9 col-end-13 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
+          >
+            <!-- news blog card image 3 -->
+            <img src="public/img/news-3.png" alt="" />
+            <!-- news blog card date -->
+            <span class="block text-primary font-primary font-medium text-base"
+              >Feb 05, 2027</span
+            >
+            <!-- news blog card title -->
+            <h3 class="text-lg text-title font-extrabold font-primary">
+              Collecting 8 points for discount
+            </h3>
+            <!-- news blog card text -->
+            <p class="text-base font-primary text-primary font-medium">
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <!-- news blog card link -->
+            <a
+              href=""
+              class="text-title font-bold font-primary text-base hover:text-orange-500"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
