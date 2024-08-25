@@ -1650,6 +1650,15 @@ video {
     padding: 5rem;
   }
 
+  .lg\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:pb-20{
+    padding-bottom: 5rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -1900,6 +1909,10 @@ video {
 
   .xl\:pt-20{
     padding-top: 5rem;
+  }
+
+  .xl\:pt-0{
+    padding-top: 0px;
   }
 
   .xl\:text-left{
