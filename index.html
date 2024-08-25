@@ -14,25 +14,27 @@
   </head>
   <body class="box-border">
     <!-- main container -->
-    <main class="max-w-screen-xl mx-auto px-8 font-primary">
+    <main class="max-w-screen-xl mx-auto px-8 font-primary overflow-hidden">
       <!-- header banner container -->
-      <header class="grid grid-cols-12 py-20">
+      <header class="grid grid-cols-12 gap-y-10 xl:gap-y-0 py-10 xl:py-20">
         <!-- banner text content -->
         <div
-          class="xs:col-span-12 sm:col-span-12 lg:col-span-6 flex flex-col gap-7 xs:text-center"
+          class="col-span-12 xl:col-span-6 justify-center flex flex-col gap-5 xl:gap-7"
         >
           <!-- banner title -->
-          <h1 class="text-title text-7xl font-extrabold leading-tight">
+          <h1
+            class="text-title text-4xl xl:text-7xl font-extrabold leading-tight text-center xl:text-left"
+          >
             It's good <br />
             tea time at The Tea House
           </h1>
           <!-- banner text -->
-          <p class="text-primary text-lg font-medium">
-            Tea and Botanical Solutions Supplier Give Optimum <br />
-            Satisfaction To Your Taste Buds.
+          <p class="text-primary text-lg font-medium text-center xl:text-left">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
           </p>
           <!-- banner button container -->
-          <div class="lg:text-left sm:text-center">
+          <div class="mx-auto xl:mx-0">
             <!-- banner button -->
             <button
               class="px-5 py-3 bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white rounded-md flex items-center gap-2"
@@ -46,13 +48,13 @@
           </div>
         </div>
         <!-- banner image content -->
-        <div class="sm:col-span-12 lg:col-start-7 lg:col-end-13">
+        <div class="col-span-12 xl:col-start-7 xl:col-end-13">
           <div class="relative">
             <!-- banner image -->
-            <img src="public/img/banner.png" alt="" />
+            <img class="w-full" src="public/img/banner.png" alt="" />
             <!-- banner card -->
             <div
-              class="absolute lg:top-80 lg:left-16 bg-white flex items-center gap-3 p-5 rounded-md shadow-md shadow-slate-400"
+              class="absolute top-48 left-10 xl:top-80 xl:left-16 bg-white flex items-center gap-3 p-5 rounded-md shadow-md shadow-slate-400"
             >
               <!-- banner card icon -->
               <div>
@@ -60,7 +62,9 @@
               </div>
               <!-- banner card text -->
               <div>
-                <p class="text-title text-3xl font-extrabold">5.00</p>
+                <p class="text-title text-xl xl:text-3xl font-extrabold">
+                  5.00
+                </p>
                 <p class="text-primary text-lg font-medium">
                   Trust Pilot Ratings
                 </p>
@@ -70,11 +74,13 @@
         </div>
       </header>
       <!-- featured product cards section container -->
-      <section class="grid grid-cols-12 pb-20 gap-y-12">
+      <section class="grid grid-cols-12 py-12 xl:py-0 xl:pb-20 gap-y-12">
         <!-- section title container -->
-        <div class="col-start-3 col-end-11 text-center">
+        <div class="col-span-12 xl:col-start-3 xl:col-end-11 text-center">
           <!-- section title -->
-          <h2 class="text-title font-primary font-extrabold text-5xl mb-5">
+          <h2
+            class="text-title font-primary font-extrabold text-3xl xl:text-5xl mb-5"
+          >
             Our Featured Products
           </h2>
           <!-- section title text -->
@@ -87,10 +93,10 @@
         </div>
         <!-- featured cards content -->
         <div class="col-start-1 col-end-13">
-          <div class="grid grid-cols-12 gap-x-4">
+          <div class="grid grid-cols-12 gap-y-6 xl:gap-x-4">
             <!-- single product card item 1 -->
             <div
-              class="col-start-1 col-end-4 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+              class="col-span-12 xl:col-start-1 xl:col-end-4 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
             >
               <div class="flex flex-col justify-center items-center">
                 <!-- product card image -->
@@ -115,7 +121,7 @@
             </div>
             <!-- single product card item 2 -->
             <div
-              class="col-start-4 col-end-7 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+              class="col-span-12 xl:col-start-4 xl:col-end-7 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
             >
               <div class="flex flex-col justify-center items-center">
                 <!-- product card image -->
@@ -140,7 +146,7 @@
             </div>
             <!-- single product card item 3 -->
             <div
-              class="col-start-7 col-end-10 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+              class="col-span-12 xl:col-start-7 xl:col-end-10 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
             >
               <div class="flex flex-col justify-center items-center">
                 <!-- product card image -->
@@ -164,7 +170,7 @@
             </div>
             <!-- single product card item 4 -->
             <div
-              class="col-start-10 col-end-13 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
+              class="col-span-12 xl:col-start-10 xl:col-end-13 bg-gradient-to-b from-zinc-200 to-neutral-50 p-7 rounded-xl"
             >
               <div class="flex flex-col justify-center items-center">
                 <!-- product card image -->
@@ -191,47 +197,51 @@
         </div>
       </section>
       <!-- showcase section container -->
-      <section class="grid grid-cols-12 py-20 gap-x-12">
+      <section
+        class="grid grid-cols-12 py-10 xl:py-20 xl:gap-x-12 gap-y-12 xl:gap-y-0"
+      >
         <!-- showcase image content -->
-        <div class="col-span-6 grid grid-cols-2 grid-rows-3 gap-7">
+        <div
+          class="col-span-12 xl:col-span-6 grid grid-cols-12 xl:grid-cols-2 grid-rows-6 xl:grid-rows-3 gap-7"
+        >
           <!-- showcase blank box 1 -->
           <div
-            class="col-span-1 row-span-1 w-full h-full rounded-lg bg-gradient-to-r from-red-200 to-red-50"
+            class="col-span-12 row-span-1 xl:col-span-1 xl:row-span-1 w-full h-full rounded-lg bg-gradient-to-r from-red-200 to-red-50"
           ></div>
           <!-- showcase image box 1 -->
           <div
-            class="col-span-1 row-span-2 w-full h-full rounded-lg bg-orange-50"
+            class="col-span-12 row-span-2 xl:col-span-1 xl:row-span-2 w-full h-full rounded-lg bg-orange-50"
           >
             <!-- showcase image 1 -->
             <img
-              class="mx-auto w-full px-7 py-10"
+              class="mx-auto w-9/12 xl:w-full px-7 py-10"
               src="public/img/fresh-1.png"
               alt=""
             />
           </div>
           <!-- showcase image box 2 -->
           <div
-            class="mx-auto col-span-1 row-span-2 w-full h-full rounded-lg bg-stone-100"
+            class="mx-auto col-span-12 row-span-2 xl:col-span-1 xl:row-span-2 w-full h-full rounded-lg bg-stone-100"
           >
             <!-- showcase image 2 -->
             <img
-              class="mx-auto w-full px-7 py-10"
+              class="mx-auto w-9/12 xl:w-full px-7 py-10"
               src="public/img/fresh-2.png"
               alt=""
             />
           </div>
           <!-- showcase blank box 2 -->
           <div
-            class="col-span-1 row-span-1 w-full h-full rounded-lg bg-gradient-to-r from-stone-200 to-stone-50"
+            class="col-span-12 row-span-1 xl:col-span-1 xl:row-span-1 w-full h-full rounded-lg bg-gradient-to-r from-stone-200 to-stone-50"
           ></div>
         </div>
         <!-- showcase text content -->
         <div
-          class="col-start-7 col-end-13 flex flex-col gap-7 items-center justify-center"
+          class="col-span-12 xl:col-start-7 xl:col-end-13 flex flex-col gap-7 items-center justify-center"
         >
           <!-- showcase title -->
           <h2
-            class="font-primary text-title text-5xl font-extrabold leading-tight"
+            class="font-primary text-title text-3xl xl:text-5xl font-extrabold leading-tight"
           >
             Great Tea, Freshly Presented
           </h2>
@@ -263,11 +273,15 @@
       </section>
       <!-- testimonial section container -->
       <section
-        class="grid grid-cols-12 gap-8 bg-gradient-to-l from-[#FF0000] to-[#FF8938] p-20 rounded-xl mb-20"
+        class="grid grid-cols-12 gap-y-16 xl:gap-y-0 xl:gap-x-8 bg-gradient-to-l from-[#FF0000] to-[#FF8938] p-7 xl:p-20 rounded-xl mb-20"
       >
         <!-- testimonial text content -->
-        <div class="col-span-6 flex flex-col gap-y-7 justify-center">
-          <h2 class="text-white font-extrabold text-5xl leading-snug">
+        <div
+          class="col-span-12 xl:col-span-6 flex flex-col gap-y-7 justify-center"
+        >
+          <h2
+            class="text-white font-extrabold text-3xl xl:text-5xl leading-snug"
+          >
             Meet Our Super Clients
           </h2>
           <p class="text-white text-base font-medium">
@@ -286,10 +300,12 @@
           </div>
         </div>
         <!-- testimonial cards content -->
-        <div class="col-start-8 col-end-13 flex flex-col gap-8 relative">
+        <div
+          class="col-span-12 xl:col-start-8 xl:col-end-13 flex flex-col gap-8 relative"
+        >
           <!-- first card item -->
           <div
-            class="flex flex-col gap-5 px-12 py-8 bg-white text-primary rounded-lg absolute -left-20 top-1/4 z-10 w-11/12"
+            class="flex flex-col gap-5 px-8 py-5 xl:px-12 xl:py-8 bg-white text-primary rounded-lg absolute -left-0 xl:-left-20 top-1/4 z-10 w-11/12 ml-2 xl:ml-0"
           >
             <!-- testimonial card image -->
             <img
@@ -316,7 +332,7 @@
           </div>
           <!-- middle card item -->
           <div
-            class="flex flex-col gap-5 relative px-12 py-8 bg-white text-primary rounded-lg opacity-55 w-11/12"
+            class="flex flex-col gap-5 relative px-8 py-5 xl:px-12 xl:py-8 bg-white text-primary rounded-lg opacity-55 xl:w-11/12 ml-8 xl:ml-0"
           >
             <!-- testimonial card image -->
             <img
@@ -343,7 +359,7 @@
           </div>
           <!-- last card item -->
           <div
-            class="flex flex-col gap-5 relative px-12 py-8 bg-white text-primary rounded-lg opacity-55 w-11/12"
+            class="flex flex-col gap-5 relative px-8 py-5 xl:px-12 xl:py-8 bg-white text-primary rounded-lg opacity-55 xl:w-11/12 ml-8 xl:ml-0"
           >
             <!-- testimonial card image -->
             <img
@@ -370,11 +386,13 @@
         </div>
       </section>
       <!-- news blog section container -->
-      <section class="grid grid-cols-12 gap-y-12 pb-20">
+      <section class="grid grid-cols-12 gap-y-5 xl:gap-y-12 pb-12 xl:pb-20">
         <!-- section title container -->
-        <div class="col-start-3 col-end-11 text-center">
+        <div class="col-span-12 xl:col-start-3 xl:col-end-11 text-center">
           <!-- section title -->
-          <h2 class="text-title font-primary font-extrabold text-5xl mb-5">
+          <h2
+            class="text-title font-primary font-extrabold text-3xl xl:text-5xl mb-5"
+          >
             News & Events
           </h2>
           <!-- section title text -->
@@ -386,10 +404,12 @@
           </p>
         </div>
         <!-- news blog cards content -->
-        <div class="col-span-12 grid grid-cols-12 gap-x-5">
+        <div
+          class="col-span-12 grid grid-cols-12 gap-y-5 xl:gap-y-0 xl:gap-x-5"
+        >
           <!-- single news blog card 1 -->
           <div
-            class="col-start-1 col-end-5 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
+            class="col-span-12 xl:col-start-1 xl:col-end-5 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
           >
             <!-- news blog card image 1 -->
             <img src="public/img/news-1.png" alt="" />
@@ -408,13 +428,13 @@
             <!-- news blog card link -->
             <a
               href=""
-              class="text-title font-bold font-primary text-base hover:text-orange-500"
+              class="text-title font-bold font-primary text-base transition duration-300 hover:text-orange-500"
               >Learn More</a
             >
           </div>
           <!-- single news blog card 2 -->
           <div
-            class="col-start-5 col-end-9 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
+            class="col-span-12 xl:col-start-5 xl:col-end-9 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
           >
             <!-- news blog card image 2 -->
             <img src="public/img/news-2.png" alt="" />
@@ -433,13 +453,13 @@
             <!-- news blog card link -->
             <a
               href=""
-              class="text-title font-bold font-primary text-base hover:text-orange-500"
+              class="text-title font-bold font-primary text-base transition duration-300 hover:text-orange-500"
               >Learn More</a
             >
           </div>
           <!-- single news blog card 3 -->
           <div
-            class="col-start-9 col-end-13 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
+            class="col-span-12 xl:col-start-9 xl:col-end-13 flex flex-col gap-y-4 border border-gray-200 rounded-2xl p-5"
           >
             <!-- news blog card image 3 -->
             <img src="public/img/news-3.png" alt="" />
@@ -458,7 +478,7 @@
             <!-- news blog card link -->
             <a
               href=""
-              class="text-title font-bold font-primary text-base hover:text-orange-500"
+              class="text-title font-bold font-primary text-base transition duration-300 hover:text-orange-500"
               >Learn More</a
             >
           </div>
@@ -466,26 +486,27 @@
       </section>
     </main>
     <!-- footer container -->
-    <footer class="bg-red-50 py-20">
+    <footer class="bg-red-50 py-10 xl:py-20">
       <div class="max-w-screen-xl mx-auto px-8">
         <!-- footer top content -->
         <div class="grid grid-cols-12">
-          <div class="col-span-6">
+          <div class="col-span-1 xl:col-span-6 self-center">
             <!-- footer top logo -->
             <img src="public/img/cup.png" alt="" />
           </div>
           <!-- footer get started -->
           <div
-            class="col-start-7 col-end-13 flex justify-end items-center gap-8"
+            class="col-start-3 col-end-13 xl:col-start-7 xl:col-end-13 flex justify-end items-center gap-4 xl:gap-8"
           >
             <!-- get started text -->
-            <span class="text-zinc-800 text-xl text-primary font-normal"
+            <span
+              class="text-zinc-800 text-base xl:text-xl text-primary font-normal"
               >Ready to get started?</span
             >
             <!-- get started button -->
             <span
               ><button
-                class="px-5 py-3 bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white rounded-md flex items-center gap-2 text-lg font-semibold font-primary"
+                class="p-3 xl:px-5 xl:py-3 bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white rounded-md flex items-center gap-2 text-base xl:text-lg font-semibold font-primary"
               >
                 Get Started
               </button></span
@@ -493,13 +514,14 @@
           </div>
         </div>
         <!-- footer bottom menu content -->
-        <div class="grid grid-cols-12 pt-20">
+        <div class="grid grid-cols-12 pt-12 xl:pt-20 gap-y-8 xl:gap-y-0">
           <!-- footer menu 1 -->
-          <div class="col-start-1 col-end-4">
+          <div class="col-span-12 xl:col-start-1 xl:col-end-4">
             <!-- footer menu title 1 -->
             <h4 class="text-lg text-title font-primary font-semibold mb-4">
               Quick Links
             </h4>
+            <!-- footer menu 1 links -->
             <ul>
               <li class="text-base font-primary text-gray-800 mb-4">
                 <a href="">Home</a>
@@ -516,11 +538,12 @@
             </ul>
           </div>
           <!-- footer menu 2 -->
-          <div class="col-start-4 col-end-7">
+          <div class="col-span-12 xl:col-start-4 xl:col-end-7">
             <!-- footer menu title 2 -->
             <h4 class="text-lg text-title font-primary font-semibold mb-4">
               Our Services
             </h4>
+            <!-- footer menu 2 links -->
             <ul>
               <li class="text-base font-primary text-gray-800 mb-4">
                 <a href="">Life Insurance</a>
@@ -537,11 +560,12 @@
             </ul>
           </div>
           <!-- footer menu 3 -->
-          <div class="col-start-7 col-end-9">
-            <!-- footer menu title 2 -->
+          <div class="col-span-12 xl:col-start-7 xl:col-end-9">
+            <!-- footer menu title 3 -->
             <h4 class="text-lg text-title font-primary font-semibold mb-4">
               Help
             </h4>
+            <!-- footer menu 3 links -->
             <ul>
               <li class="text-base font-primary text-gray-800 mb-4">
                 <a href="">FAQ's</a>
@@ -552,7 +576,9 @@
             </ul>
           </div>
           <!-- footer subscription and social links -->
-          <div class="col-start-9 col-end-13 flex flex-col gap-6">
+          <div
+            class="col-span-12 xl:col-start-9 xl:col-end-13 flex flex-col gap-6"
+          >
             <!-- footer subscription title -->
             <h4 class="text-2xl text-title font-primary font-semibold mb-4">
               Subscribe to our <br />
@@ -560,12 +586,14 @@
             </h4>
             <!-- subscription form -->
             <div class="flex gap-4">
+              <!-- subscription email form -->
               <input
                 class="bg-transparent border-b border-slate-800 w-11/12 outline-0 pb-3"
                 type="email"
                 name="email"
                 placeholder="Email Address"
               />
+              <!-- subscription button -->
               <button
                 class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] text-white font-semibold rounded-full w-8 h-8"
               >
@@ -574,8 +602,11 @@
             </div>
             <!-- social links -->
             <div class="flex gap-7">
+              <!-- facebook -->
               <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <!-- twitter -->
               <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <!-- instagram -->
               <a href=""><i class="fa-brands fa-square-instagram"></i></a>
             </div>
           </div>
@@ -583,6 +614,7 @@
         <!-- footer copyright content -->
         <div class="grid-grid-cols-12 pt-16">
           <div class="col-span-12">
+            <!-- copyright text -->
             <p
               class="text-base text-primary font-normal font-primary text-center"
             >
